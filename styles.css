@@ -1,1 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col-12 {
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+@media (min-width: 993px) {
+}
+@media (min-width: 769px) and (max-width: 992px) {
+}
+@media (max-width: 768px) {
+
+}
