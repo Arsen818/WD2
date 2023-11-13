@@ -1,7 +1,33 @@
-<body>
-.row {
-width: 100%;
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
 }
+
+h1.center {
+    text-align: center;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.col-lg-3,
+.col-md-5,
+.col-md-11 {
+    overflow: auto;
+    float: left;
+    box-sizing: border-box;
+    padding:15px;
+    position: relative;
+    border: 1px solid #000;
+    margin: 20px;
+    
+}
+
 @media (min-width: 1200px) {
 .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8,
 .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
@@ -45,6 +71,7 @@ width: 91.66%;
 width: 100%;
 }
 }
+
 @media (min-width: 992px) and (max-width: 1199px) {
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8,
 .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
@@ -88,4 +115,27 @@ width: 91.66%;
 width: 100%;
 }
 }
-</body>
+
+#container {
+    padding: 20px;
+    position: relative;
+    background-color: #03FCC2;
+    width: 33.33% margin-bottom: 20 px;
+}
+
+.oneC,
+.twoC,
+.threeC {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: yellow;
+    border: 1px solid #000;
+    position: top right;
+}
+
+.text-caption {
+    margin-top: 50px;
+    text-align: justify;
+
+}
