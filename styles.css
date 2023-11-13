@@ -129,10 +129,16 @@ width: 100%;
     border: 1px solid #000;
     padding: 5px;
 }
-
+.oneC {
+   background-color:#EB9834;
+}
+.twoC {
+  background-color:#EB3474;
+}
+.threeC {
+   background-color:#FFE6E6;
+}
 .text-caption {
     margin-top: 50px;
     text-align: justify;
-    transform: translateY(-50);
-
 }
